@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 95px;
+}
+.inner-container {
+  background-color: white;
+  height: 80vh;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  color: black;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.span-el {
+  color: #ffd569;
+  font-size: 35px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.image {
+  height: 250px;
+  width: 250px;
+}
+.m-btn {
+  background-color: #007bff;
+  color: white;
+  border-width: 0px;
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  align-self: center;
+
+  margin: 15px;
+}
